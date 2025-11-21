@@ -1,0 +1,51 @@
+YSU-ERS/
+│
+├── App.js
+├── app.json
+├── babel.config.js
+├── package.json
+│
+├── assets/
+│   ├── images/
+│   │   ├── ysu-logo.png
+│   │   ├── splash.png
+│   │   ├── emergency-bg.jpg
+│   │   ├── panic-icon.png
+│   │   ├── fire.png
+│   │   ├── health.png
+│   │   ├── security.png
+│   │   ├── alert.png
+│   └── fonts/ (optional)
+│
+├── navigation/
+│   ├── AppNavigator.js        ← Handles stack: splash → login → signup → drawer
+│   ├── DrawerNavigator.js     ← Main drawer for Home | Panic | History | Settings
+│   └── AdminNavigator.js      ← Admin dashboard system
+│
+├── screens/
+│   ├── SplashScreen.js
+│   ├── LoginScreen.js
+│   ├── SignupScreen.js
+│   ├── HomeScreen.js
+│   ├── PanicButtonScreen.js
+│   ├── EmergencyFormScreen.js
+│   ├── EmergencyHistoryScreen.js
+│   ├── AdminDashboardScreen.js
+│   ├── SettingsScreen.js
+│
+├── components/
+│   ├── PanicButton.js
+│   ├── EmergencyCard.js
+│   ├── EmergencyTypeSelector.js
+│   ├── LocationDropdown.js
+│   └── Header.js
+│
+├── context/
+│   ├── UserContext.js
+│   ├── EmergencyContext.js
+│   └── AppContext.js
+│
+└── utils/
+    ├── storage.js        ← handles saving/loading AsyncStorage
+    ├── constants.js      ← emergency types, locations, admin login
+    ├── helpers.js

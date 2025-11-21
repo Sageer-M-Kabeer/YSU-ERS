@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 3.17.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "apk": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
