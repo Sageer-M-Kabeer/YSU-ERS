@@ -14,7 +14,7 @@ import { Picker } from "@react-native-picker/picker";
 import { CAMPUS_LOCATIONS, EMERGENCY_TYPES } from "../utils/constants";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_BASE_URL = "http://10.142.124.132:5000/api";
+const API_BASE_URL = "https://ysu-ers.vercel.app/api";
 
 export default function EmergencyFormScreen({ navigation }) {
   const [title, setTitle] = useState("");

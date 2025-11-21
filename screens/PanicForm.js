@@ -13,7 +13,7 @@ import { Picker } from "@react-native-picker/picker";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { CAMPUS_LOCATIONS, EMERGENCY_TYPES } from "../utils/constants";
 
-const API_BASE_URL = "http://10.142.124.132:5000/api";
+const API_BASE_URL = "https://ysu-ers.vercel.app/api";
 
 export default function PanicForm({ navigation }) {
   const [type, setType] = useState("Security"); // Default to most common emergency

@@ -17,7 +17,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { COLORS, IMAGES } from "../utils/constants";
 
-const API_BASE_URL = "http://10.142.124.132:5000/api";
+const API_BASE_URL = "https://ysu-ers.vercel.app/api";
 
 export default function LoginScreen({ navigation }) {
   const [activeTab, setActiveTab] = useState("student"); // "student" or "admin"
